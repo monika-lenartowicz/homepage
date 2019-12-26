@@ -1,0 +1,23 @@
+body {
+    background: #fefefe;
+}
+
+.mainHeader {
+    color: tomato;
+
+}
+
+.sectionHeader {
+    color:blueviolet;
+  
+}
+
+.diaryHeader{
+    color:blueviolet;
+    
+}
+
+#pamietniczek{
+    background: rgb(222, 231, 203);
+}
+
