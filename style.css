@@ -1,5 +1,5 @@
 body {
-    background: salmon;
+    background:#fefefe;
 }
 
 .mainHeader {
@@ -7,17 +7,26 @@ body {
 
 }
 
-.sectionHeader {
+.sectionHeader , .diaryHeader{
     color:blueviolet;
   
 }
 
-.diaryHeader{
-    color:blueviolet;
-    
+.articleHeader {
+    color: #0496FF
 }
 
-#pamietniczek{
-    background: rgb(222, 231, 203);
+.link {
+    color: green
+}
+
+   
+.paragraph{
+    padding: 16px 0 0 16px;
+}
+.main{
+    width: 100%;
+    max-width: 700px;
+    margin: 32px auto;
 }
 
