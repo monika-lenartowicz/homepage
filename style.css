@@ -1,32 +1,62 @@
-body {
-    background:#fefefe;
+.body {
+    background: #fefefe;
 }
 
-.mainHeader {
+.main {
+    width: 100% ;
+    max-width: 700px;
+    margin: 32px auto;
+    padding-top: 50px;
+}
+
+.main__header {
     color: tomato;
-
 }
 
-.sectionHeader , .diaryHeader{
-    color:blueviolet;
-  
+.about__header {
+    color: blueviolet;
+}
+
+.abaut__paragraph {
+    padding: 16px
+}
+
+.about__pictures {
+    width: 100%;
+    max-width: 100px;
+    display: block;
+    float: left;
+    margin: 0 16px 16px 0;
+}
+
+.about__link {
+    color: green;
 }
 
 .articleHeader {
     color: #0496FF
 }
 
-.link {
+.diary__header{
+    color: blueviolet;
+}
+.navigation__link {
     color: green
 }
-
-   
-.paragraph{
-    padding: 16px 0 0 16px;
+.diary{
+    clear: both
 }
-.main{
+
+.diary__link{
+    color: green;
+}
+
+.diary__section--header{
+    color: #001F54;
+}
+
+.main {
     width: 100%;
     max-width: 700px;
     margin: 32px auto;
 }
-
