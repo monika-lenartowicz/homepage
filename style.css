@@ -6,11 +6,14 @@
     width: 100% ;
     max-width: 700px;
     margin: 32px auto;
-    padding-top: 50px;
 }
 
 .main__header {
     color: tomato;
+    padding: 40px;
+}
+.about{
+    position: relative;
 }
 
 .about__header {
@@ -55,8 +58,30 @@
     color: #001F54;
 }
 
-.main {
+.box{
+    width:100px;
+    height: 100px;
+    background: yellowgreen;
+    padding: 10px; 
+    border: 10px solid hotpink;
+    top: 10px;
+    left: 50%;
+    box-sizing: border-box;
+    position: absolute;
+}
+.navigation{
+    position: fixed;
     width: 100%;
-    max-width: 700px;
-    margin: 32px auto;
+    top:10px;
+}
+.top{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.footer{
+    font-size: 15px;
+    
+    
 }
