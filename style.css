@@ -43,6 +43,7 @@
 .diary__header{
     color: blueviolet;
 }
+
 .navigation__link {
     color: green
 }
@@ -73,6 +74,7 @@
     position: fixed;
     width: 100%;
     top:10px;
+    font-size: 15px;
 }
 .top{
     position: fixed;
