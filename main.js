@@ -18,3 +18,7 @@ console.log(paragraphs[1]);
 console.log(day__coten.innerHTML);
 day__coten.innerHTML = "<strong>pozdro js<strong>";
 
+if ('javascript' != 'java'){
+   console.log("to prawda")
+}
+
