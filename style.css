@@ -1,4 +1,4 @@
-html{
+html {
     box-sizing: border-box;
 }
 
@@ -8,17 +8,6 @@ html{
 
 .body {
     background: #fefefe;
-}
-
-.main {
-    margin: 32px auto;
-    max-width: 700px;
-    width: 100%;
-}
-
-.main__header {
-    color: tomato;
-    padding: 40px;
 }
 
 .about {
@@ -45,16 +34,8 @@ html{
     color: green;
 }
 
-.box {
-    background: yellowgreen;
-    border: 10px solid hotpink;
-    box-sizing: border-box;
-    height: 100px;
-    left: 50%;
-    padding: 10px;
-    position: fixed;
-    top: 10px;
-    width: 100px;
+.day__header {
+    color: #001F54;
 }
 
 .diary {
@@ -69,19 +50,54 @@ html{
     color: green;
 }
 
-.day__header {
-    color: #001F54;
+.flex {
+    align-content: space-around;
+    border: 3px solid hotpink;
+    background: yellow;
+    display: flex;
+    font-weight: bold;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
 }
 
-.navigation {
-    font-size: 15px;
-    position: fixed;
-    top: 10px;
+.flex__item {
+    display: inline;
+    border: 16px;
+    padding: 16px;
+}
+
+.flex__navigation {
+    display: flex;
+    height: 48px;
+    top: 16px;
+}
+
+
+
+.main {
+    margin: 32px auto;
+    max-width: 700px;
     width: 100%;
 }
 
+.main__header {
+    color: tomato;
+    padding: 100px 40px 70px;
+    
+}
+
+.navigation {
+    background-color: yellow;
+    font-size: 15px;
+    position: fixed;
+    top: 16px;
+    width: 100%;
+    }
+
 .navigation__link {
-    color: green
+    color: green;
+    text-decoration: none;
 }
 
 .top {
