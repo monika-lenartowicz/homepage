@@ -22,3 +22,28 @@ if ('javascript' != 'java'){
    console.log("to prawda")
 }
 
+function calculate(x) {
+   x = x + 3;
+   console.log(x);
+   return x*7;
+}
+console.log(calculate(2));
+const myCalculation = calculate(4);
+console.log (myCalculation);
+
+const calculateFat = (x) => {
+   x = x + 3;
+   console.log(x);
+   return x*7;
+}
+console.log(calculateFat(2));
+
+const calculateFatet = x => (x+3)*7;
+
+console.log(calculateFatet(2));
+
+const welcome = (name, age) => {
+   console.log(`witaj ${name}, masz ${age} lat`);
+}
+
+welcome ('Monika', 45);
